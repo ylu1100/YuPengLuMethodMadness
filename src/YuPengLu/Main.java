@@ -3,6 +3,6 @@ package YuPengLu;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	return "hello world";// write your code here
     }
 }
