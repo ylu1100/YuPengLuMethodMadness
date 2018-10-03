@@ -16,4 +16,13 @@ public class YuPengLuLib {
         output = output + dd + " - " + mm + " - " + yy;
         return output;
     }
+    public static int sumUpTo(int input) {
+        int output = 0;
+        for(int i = 1; i < input; i++){
+            output = output + i;
+        }
+        return output + input;
+
+
+    }
 }
