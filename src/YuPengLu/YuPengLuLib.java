@@ -22,7 +22,20 @@ public class YuPengLuLib {
             output = output + i;
         }
         return output + input;
-
-
+    }
+    public static boolean isFibonacci(int input){
+        int x = 0;
+        int i = 1;
+        if (input == x || input == i) {
+            return true;
+        }
+        int y = i;
+        while (i < input)
+        {
+            i = y+x;
+            y = x;
+            x = i;
+        }
+        return ( i == input);
     }
 }
